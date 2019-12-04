@@ -46,5 +46,5 @@ out/
 .gradle
 build
 *.iml
-
+gradle.properties
 node_modules

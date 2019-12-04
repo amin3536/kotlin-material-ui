@@ -1,10 +1,10 @@
 import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
 
 group = Packages.group
-version = "1.0-SNAPSHOT"
+version = Packages.version
 
 plugins {
-    kotlin("js")
+    kotlin(module="js") 
 }
 
 repositories {
@@ -26,10 +26,11 @@ kotlin {
                     port = 8080,
                     contentBase = listOf("${projectDir.path}/src/main/resources")
                 )
-                archiveFileName = "kotlin-material-ui-sample.js"
+//                archiveFileName = "kotlin-material-ui-sample.js"
             }
             webpackTask {
-                archiveFileName = "kotlin-material-ui-sample.js"
+//                archiveFileName = "kotlin-material-ui-sample.js"
+//                archiveFileName = "kotlin-material-ui-sample.js"
             }
         }
     }

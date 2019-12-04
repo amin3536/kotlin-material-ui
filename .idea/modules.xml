@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/cashcool.cash.kotlinmaterialui.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/cashcool.cash.kotlinmaterialui.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/cashcool.cash.kotlinmaterialui.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/cashcool.cash.kotlinmaterialui.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cashcool.cash.kotlinmaterialui.kotlin-material-ui.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cashcool.cash.kotlinmaterialui.kotlin-material-ui.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cashcool.cash.kotlinmaterialui.kotlin-material-ui.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cashcool.cash.kotlinmaterialui.kotlin-material-ui.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/cashcool.cash.kotlinmaterialui.sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/cashcool.cash.kotlinmaterialui.sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/cashcool.cash.kotlinmaterialui.sample.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/cashcool.cash.kotlinmaterialui.sample.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kotlin-material-ui.iml" filepath="$PROJECT_DIR$/.idea/kotlin-material-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-material-ui.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-material-ui.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-material-ui.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-material-ui.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-material-ui.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-material-ui.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/kotlin-material-ui.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/kotlin-material-ui.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/kotlin-material-ui.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/kotlin-material-ui.sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/subroh0508.net.kotlinmaterialui.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/subroh0508.net.kotlinmaterialui.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/subroh0508.net.kotlinmaterialui.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/subroh0508.net.kotlinmaterialui.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subroh0508.net.kotlinmaterialui.kotlin-material-ui.main.iml" filepath="$PROJECT_DIR$/.idea/modules/subroh0508.net.kotlinmaterialui.kotlin-material-ui.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subroh0508.net.kotlinmaterialui.kotlin-material-ui.test.iml" filepath="$PROJECT_DIR$/.idea/modules/subroh0508.net.kotlinmaterialui.kotlin-material-ui.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/subroh0508.net.kotlinmaterialui.sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/subroh0508.net.kotlinmaterialui.sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/subroh0508.net.kotlinmaterialui.sample.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/subroh0508.net.kotlinmaterialui.sample.test.iml" />
+    </modules>
+  </component>
+</project>

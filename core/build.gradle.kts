@@ -2,7 +2,7 @@ group = Packages.group
 version = Packages.version
 
 plugins {
-    kotlin("js")
+    kotlin(module="js") 
     `maven-publish`
     id("com.jfrog.bintray") version Versions.bintray
 }
@@ -52,5 +52,15 @@ kotlin {
         }
     }
 }
+
+//publishing {
+//    publications {
+//        create<MavenPublication>("maven") {
+//            groupId = "cash.cashcool"
+//            artifactId = "materialui"
+//            version = Packages.version
+//        }
+//    }
+//}
 
 apply(from = file("${rootDir.path}/gradle/bintray.gradle"))

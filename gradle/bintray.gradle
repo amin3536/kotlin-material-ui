@@ -1,5 +1,5 @@
-def siteUrl = 'https://github.com/subroh0508/kotlin-material-ui'
-def githubUrl = 'https://github.com/subroh0508/kotlin-material-ui'
+def siteUrl = 'https://github.com/amin3536/kotlin-material-ui.git'
+def githubUrl = 'https://github.com/amin3536/kotlin-material-ui.git'
 
 // Create the pom configuration:
 def pomConfig = {
@@ -12,9 +12,9 @@ def pomConfig = {
     }
     developers {
         developer {
-            id "subroh0508"
-            name "Subroh Nishikori"
-            email "subroh.0508@gmail.com"
+            id "amin3536"
+            name "amin mir"
+            email "am.a9173@gmail.com"
         }
     }
 
@@ -23,15 +23,22 @@ def pomConfig = {
     }
 }
 
+task printProps {
+    doFirst {
+        println project.getProperty("user")
+        println project.getProperty("key")
+    }
+}
 bintray {
-    user = project.hasProperty('bintray_user') ? bintray_user : ''
-    key = project.hasProperty('bintray_key') ? bintray_key : ''
+    user = project.hasProperty('user') ? project.property('user') :''
+    key = project.hasProperty('key') ? project.property('key') :''
     publications = ['ToMavenPublication']
 
     publish = false
     pkg {
         repo = 'maven'
         name = 'Kotlin-Material-UI'
+        userOrg = 'cashcool'
         licenses = ['MIT']
         websiteUrl = siteUrl
         vcsUrl = githubUrl + '.git'
