@@ -20,10 +20,11 @@ kotlin {
     target {
         compilations.all {
             compileKotlinTask.kotlinOptions {
+                outputFile = "$projectDir/build/classes/main/${Packages.projectionName}.js"
                 moduleKind = "commonjs"
                 sourceMap = true
                 metaInfo = true
-                sourceMapEmbedSources = null
+                sourceMapEmbedSources = "always"
             }
         }
         browser()
@@ -54,14 +55,5 @@ kotlin {
     }
 }
 
-//publishing {
-//    publications {
-//        create<MavenPublication>("maven") {
-//            groupId = "cash.cashcool"
-//            artifactId = "materialui"
-//            version = Packages.version
-//        }
-//    }
-//}
 
 apply(from = file("${rootDir.path}/gradle/bintray.gradle"))

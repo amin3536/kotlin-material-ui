@@ -9,6 +9,14 @@ allprojects {
         maven( "https://dl.bintray.com/kotlin/kotlin-eap")
     }
 }
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    
+}
+
 plugins {
     kotlin(module="js") version "1.0.7-eap-53"
 }
+
