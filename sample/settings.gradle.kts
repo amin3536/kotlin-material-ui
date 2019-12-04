@@ -1,6 +1,14 @@
+include("core")
 rootProject.name = "kotlin-material-ui-sample"
 
-pluginManagement {
+/*pluginManagement {
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven(url = "https://dl.bintray.com/kotlin/kotlin-eap")
+        maven(url = "http://dl.bintray.com/kotlin/kotlinx.html")
+        maven(url = "http://dl.bintray.com/kotlin/kotlin-js-wrappers")
+    }
     resolutionStrategy {
         eachPlugin {
             if (requested.id.id == "kotlin-multiplatform") {
@@ -8,11 +16,5 @@ pluginManagement {
             }
         }
     }
-    /*enable here when you need other plugins.
-    repositories {
-        google()
-        jcenter()
-        mavenCentral()
-        gradlePluginPortal()
-    }*/
-}
+}*/
+

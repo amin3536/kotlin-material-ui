@@ -1,1 +1,4 @@
 build/
+.ide/
+gradle.properties
+gradle/
